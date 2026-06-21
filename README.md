@@ -1,3 +1,4 @@
+
 # Remote Controlling Winegard G1 Satellite Dish
 
 > [!WARNING]
@@ -25,7 +26,7 @@ Code has been shared in `arduino_code/arduino_code.ino`
 ## Diagrams
 
 ### Horizontal Motor Setup (NEMA 17 motor)
-
+<img width="3000" height="4000" alt="nema1" src="https://github.com/user-attachments/assets/b8b93b40-8ffd-4899-ad73-23f355ddf049" />
 ### Vertical Motor Setup (Linear actuator size 17)
 
 
