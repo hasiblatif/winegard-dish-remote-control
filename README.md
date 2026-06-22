@@ -39,7 +39,6 @@ I found [this datasheet article](https://www.haydonkerkpittman.com/-/media/amete
 helpful for this motor. For this motor I used code given in [this article](https://www.handsontec.com/dataspecs/module/TB6600-Motor-Driver.pdf) 
 
 <img width="2064" height="3080" alt="actuator1" src="https://github.com/user-attachments/assets/bd29b080-f051-4616-9efa-37394692f985" />
-<img width="2000" height="3000" alt="nema1" src="https://github.com/user-attachments/assets/e2ed0f4a-5a01-4e9a-91af-45a65edd2aae" />
 <img width="2064" height="3080" alt="actuator3pinsarduino" src="https://github.com/user-attachments/assets/87c77e83-77b1-4fa9-99a5-9064eb126598" />
 <img width="2000" height="3000" alt="actuator2" src="https://github.com/user-attachments/assets/03f8e022-80b8-46dc-9f33-2e8b385b533e" />
 
