@@ -33,7 +33,6 @@ Note: Jumper wire colors mismatch when conected to motors (sorry!)
 
 <img width="2000" height="3000" alt="nema2pins" src="https://github.com/user-attachments/assets/5358249b-e75d-477d-929a-3992d42b225b" />
 
-<img width="3000" height="2000" alt="nema3dirpins" src="https://github.com/user-attachments/assets/f7f46b3c-8742-4ce2-9168-415e67c9ad37" />
 
 ### Vertical Motor Setup (Linear actuator size 17)
 I found [this datasheet article](https://www.haydonkerkpittman.com/-/media/ametekhaydonkerk/downloads/data-sheets/hybrid-stepper-linear/haydon-43000-sng-data.pdf?la=en&revision=17bf0e72-af6a-4837-9a89-31a514841fc9)
