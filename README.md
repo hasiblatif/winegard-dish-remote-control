@@ -2,11 +2,11 @@
 # Remote Controlling Winegard G1 Satellite Dish
 
 > [!WARNING]
-> I am just a beginner, please make sure to understand what you are doing before powering on the hardware to avoid any surprises.
+> I am just a beginner in hardware hacking, please make sure to understand what you are doing before powering on the hardware to avoid any surprises ;)
 
 ## Introduction
 
-I got inspiration to hack Winegard carryout satellite dish to control it remotely from saveitforparts youtube channel. I found G1 model of Winegard dish 
+I got excited when I saw a video from saveitforparts youtube channel to hack Winegard carryout satellite dish to control it remotely. I found G1 model of Winegard dish 
 from marketplace but I couldn't get it working using his technique as illustrated in [this video](https://www.youtube.com/watch?v=6kQa6nfUkIs), so I decided to 
 make it remote controlled using Arduino, two stepper motor drivers and an infrared remote.
 
@@ -16,7 +16,7 @@ Since the dish came with its own motors (Nema 17 and hybrid size 17 linear actua
 
  - Aruino UNO R3 (any model is fine though) 
  - Infrared transmitter and receiver (came with Arduino starter kit)
- - 2 x TB6600 Stepper motor drivers
+ - 2 x TB6600 stepper motor drivers
  - Couple of jumper wires
 
 ## Code 
