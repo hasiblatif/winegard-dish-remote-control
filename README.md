@@ -6,23 +6,22 @@
 
 ## Introduction
 
-I got inspiration to hack Winegard carryout satellite dish from Gabe (saveitforparts youtube channel) to control it for satellite reception. I found G1 model of Winegard dish 
+I got inspiration to hack Winegard carryout satellite dish to control it remotely from saveitforparts youtube channel. I found G1 model of Winegard dish 
 from marketplace but I couldn't get it working using his technique as illustrated in [this video](https://www.youtube.com/watch?v=6kQa6nfUkIs), so I decided to 
 make it remote controlled using Arduino, two stepper motor drivers and an infrared remote.
 
 ## Setup
 
-Since the dish came with its own motors (Nema 17 and hybrid size 17 linear actuator), I just disconnected the motors from the motherboard and bought following hardware to drive the motors with the help of a basic infrared transmitter and receiver that came with an Arduino starter kit:
+Since the dish came with its own motors (Nema 17 and hybrid size 17 linear actuator), I just disconnected the motors from the motherboard and bought following hardware to drive motors with the help of a basic infrared transmitter and receiver that came with an Arduino starter kit:
 
- - Aruino uno r3 (any model is fine) 
- - Infrared sensor (came with Arduino starter kit)
- - Remote (black-one came with Arduino starter kit)
+ - Aruino UNO R3 (any model is fine though) 
+ - Infrared transmitter and receiver (came with Arduino starter kit)
  - 2 x TB6600 Stepper motor drivers
  - Couple of jumper wires
 
 ## Code 
 
-Arduino code has been shared in `arduino_code/arduino_code.ino`. Please update loops to fit your step size/revolution of the motors.
+Arduino code can be found in `arduino_code/arduino_code.ino`. Please update loops to fit your step size/revolution of the motors.
 
 ## Diagrams
 
@@ -44,7 +43,7 @@ helpful for this motor. For this motor I used code given in [this article](https
 
 ## Infrared Transmitter-Receiver
 
-I used black remote that came with Elegoo starer kit and looks like this. YOu can find many tutorials to get started with this IR transmitter and receiver.
+I used black remote that came with the Elegoo starer kit and looks like this. You can find many tutorials to get started with this IR transmitter and receiver.
 <img width="4000" height="3000" alt="IR" src="https://github.com/user-attachments/assets/5a11ac66-3cfc-4097-acc2-bc7dddde0a09" />
 
 ## Working Video 
