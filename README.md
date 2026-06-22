@@ -12,7 +12,8 @@ make it remote controlled using Arduino, two stepper motor drivers and an infrar
 
 ## Setup
 
-Since the dish came with its own motors (Nema 17 and hybrid size 17 linear actuator), I just had to buy following hardware:
+Since the dish came with its own motors (Nema 17 and hybrid size 17 linear actuator), I just disconnected the motors from the motherboard and bought following hardware to drive the motors with the help of a basic infrared transmitter and receiver that came with an Arduino starter kit:
+
  - Aruino uno r3 (any model is fine) 
  - Infrared sensor (came with Arduino starter kit)
  - Remote (black-one came with Arduino starter kit)
@@ -21,23 +22,32 @@ Since the dish came with its own motors (Nema 17 and hybrid size 17 linear actua
 
 ## Code 
 
-Code has been shared in `arduino_code/arduino_code.ino`
+Arduino code has been shared in `arduino_code/arduino_code.ino`. Please update loops to fit your step size/revolution of the motors.
 
 ## Diagrams
 
-Note: JUmper wire colours mismatch when conected to motors (sorry!)
+Note: Jumper wire colors mismatch when conected to motors (sorry!)
 
 ### Horizontal Motor Setup (NEMA 17 motor)
 <img width="2000" height="3000" alt="nema1" src="https://github.com/user-attachments/assets/b8b93b40-8ffd-4899-ad73-23f355ddf049" />
+
 <img width="2000" height="3000" alt="nema2pins" src="https://github.com/user-attachments/assets/5358249b-e75d-477d-929a-3992d42b225b" />
 
 <img width="3000" height="2000" alt="nema3dirpins" src="https://github.com/user-attachments/assets/f7f46b3c-8742-4ce2-9168-415e67c9ad37" />
 
 ### Vertical Motor Setup (Linear actuator size 17)
+I found [this datasheet article](https://www.haydonkerkpittman.com/-/media/ametekhaydonkerk/downloads/data-sheets/hybrid-stepper-linear/haydon-43000-sng-data.pdf?la=en&revision=17bf0e72-af6a-4837-9a89-31a514841fc9)
+helpful for this motor. For this motor I used code given in [this article](https://www.handsontec.com/dataspecs/module/TB6600-Motor-Driver.pdf) 
+
 <img width="2064" height="3080" alt="actuator1" src="https://github.com/user-attachments/assets/bd29b080-f051-4616-9efa-37394692f985" />
 <img width="2000" height="3000" alt="nema1" src="https://github.com/user-attachments/assets/e2ed0f4a-5a01-4e9a-91af-45a65edd2aae" />
 <img width="2064" height="3080" alt="actuator3pinsarduino" src="https://github.com/user-attachments/assets/87c77e83-77b1-4fa9-99a5-9064eb126598" />
 <img width="2000" height="3000" alt="actuator2" src="https://github.com/user-attachments/assets/03f8e022-80b8-46dc-9f33-2e8b385b533e" />
+
+## Infrared Transmitter-Receiver
+
+I used black remote that came with Elegoo starer kit and looks like this. YOu can find many tutorials to get started with this IR transmitter and receiver.
+<img width="4000" height="3000" alt="IR" src="https://github.com/user-attachments/assets/5a11ac66-3cfc-4097-acc2-bc7dddde0a09" />
 
 ## Working Video 
 
