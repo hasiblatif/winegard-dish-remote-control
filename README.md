@@ -46,7 +46,7 @@ helpful for this motor. For this motor I used code given in [this article](https
 I used black remote that came with the Elegoo starer kit and looks like this. You can find many tutorials to get started with this IR transmitter and receiver.
 <img width="4000" height="3000" alt="IR" src="https://github.com/user-attachments/assets/5a11ac66-3cfc-4097-acc2-bc7dddde0a09" />
 
-## Working Video 
+## Demo Video 
 
 https://github.com/user-attachments/assets/0455db20-67af-442c-8e20-4cf363468d2f
 
